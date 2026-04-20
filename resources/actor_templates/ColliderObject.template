@@ -1,0 +1,8 @@
+{
+	"name": "collider_object",
+	"components": {
+		"1": {
+			"type": "Rigidbody"
+		}
+	}
+}

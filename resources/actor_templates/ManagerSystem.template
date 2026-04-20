@@ -1,0 +1,8 @@
+{
+	"name": "ManagerSystem",
+	"components": {
+		"1": {
+			"type": "ManagerSystemComponent"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Mario",
+	"components": {
+	"1": {
+		"type": "Rigidbody",
+		"body_type": "dynamic",
+		"width": 0.125,
+		"height": 0.125,
+		"friction": 0.5
+	},
+	"2": {
+		"type": "Mario"
+	},
+	"3": {
+		"type": "KeyboardControls"
+	}
+	}
+}

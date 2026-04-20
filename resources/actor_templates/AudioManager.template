@@ -1,0 +1,8 @@
+{
+	"name": "AudioManager",
+	"components": {
+		"1": {
+			"type": "AudioManager"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "CameraManager",
+	"components": {
+		"1": {
+			"type": "CameraManager"
+		}
+	}
+}

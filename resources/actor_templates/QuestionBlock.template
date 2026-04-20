@@ -1,0 +1,15 @@
+{
+	"name": "question_block",
+	"components": {
+		"1_collider": {
+			"type": "Rigidbody",
+			"body_type": "kinematic",
+			"width": 0.16,
+			"height": 0.16,
+			"has_trigger": false
+		},
+		"3_question_block": {
+			"type": "QuestionBlock"
+		}
+	}
+}

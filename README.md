@@ -1,2 +1,1 @@
-# Vengeful-Game-Engine
-A minimalist C++ game engine
+# A miniature game engine created by sjblake

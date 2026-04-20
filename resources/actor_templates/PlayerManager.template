@@ -1,0 +1,8 @@
+{
+	"name": "PlayerManager",
+	"components": {
+		"1": {
+			"type": "PlayerManager"
+		}
+	}
+}

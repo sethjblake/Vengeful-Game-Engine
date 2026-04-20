@@ -1,0 +1,8 @@
+{
+	"name": "EmptySprite",
+	"components": {
+	"1": {
+		"type": "SpriteRenderer"
+		}
+	}
+}

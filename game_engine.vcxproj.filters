@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThirdParty\MapHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Engine\Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Engine\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\ContentLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\WindowManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SDL2\Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SDL2\AudioHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\ImagesManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\InputSystem\InputSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\TextManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\AudioSystem\AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Actors\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\CollisionSystem2D\AABB_Tree_Static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\CollisionSystem2D\AABB_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\CollisionSystem2D\AABB_Tree_Dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\DataBank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Game2D\Game2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\DataBankHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\GameConfigRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\renderConfigRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\ljumptab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lopnames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lprefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Lua\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Actors\ActorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Constants\GameConfigConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Constants\RenderingConfigConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Actors\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\LuaBridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\Optional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\Pair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\RefCountedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\RefCountedPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\UnorderedMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\CFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\ClassInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Constructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\dump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\FuncTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\LuaException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\LuaHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\LuaRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Namespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\TypeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\TypeTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\LuaBridge\detail\Userdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaActorInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Actors\GlobalActorsMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaApplicationInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\InputSystem\GlobalInputSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\InputSystem\KeyCodeToScancode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\TextRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\GlobalTextRequests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\AudioSystem\GlobalAudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\ImageDrawRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\GlobalImageDrawRequests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\PixelDrawRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\GlobalPixelDrawRequests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\GlobalCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Graphics\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\GlobalSceneData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\ContentManagement\SceneData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\Rigidbody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_block_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_broad_phase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_chain_shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_circle_shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_contact_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_distance_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_dynamic_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_edge_shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_fixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_friction_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_gear_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_growable_stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_motor_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_mouse_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_polygon_shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_prismatic_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_pulley_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_revolute_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_rope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_stack_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_time_of_impact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_time_step.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_weld_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_wheel_joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\b2_world_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d\box2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_chain_circle_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_chain_polygon_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_circle_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_contact_solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_edge_circle_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_edge_polygon_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_island.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_polygon_circle_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\box2d-source\dynamics\b2_polygon_contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\PhysicsSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\GlobalPhysicsSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\RigidbodyConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\GlobalRigidbodyConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Math\Conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\EngineConfig\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\HitResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\RayCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaActorHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Events\EventBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Events\EventSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Events\GlobalEventSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Events\SubscriptionRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Actors\GlobalComponentCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Particles\ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Particles\Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Math\PolarCoordinates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Particles\ParticleSystemsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Particles\GlobalParticleSystemsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\Body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Physics\Trigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\LuaManager\LuaProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Progress\ProgressManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Progress\GlobalProgressManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Windows\Engine\Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Engine\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ContentManagement\ContentLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Graphics\WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Graphics\ImagesManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\InputSystem\InputSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Graphics\TextManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\AudioSystem\AudioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\CollisionSystem2D\AABB_Tree_Static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\CollisionSystem2D\AABB_Tree_Dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ContentManagement\DataBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Game2D\Game2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ContentManagement\GameConfigRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ContentManagement\renderConfigRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Lua\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\LuaManager\LuaManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\ContentManagement\SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Actors\ActorManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\LuaManager\LuaDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Actors\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\LuaManager\LuaInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_broad_phase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_chain_shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_circle_shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_collide_circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_collide_edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_collide_polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_distance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_dynamic_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_edge_shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_polygon_shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\collision\b2_time_of_impact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\common\b2_block_allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\common\b2_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\common\b2_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\common\b2_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\common\b2_stack_allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\common\b2_timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_chain_circle_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_chain_polygon_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_circle_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_contact_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_contact_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_distance_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_edge_circle_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_edge_polygon_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_fixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_friction_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_gear_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_island.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_motor_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_mouse_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_polygon_circle_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_polygon_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_prismatic_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_pulley_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_revolute_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_weld_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_wheel_joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\dynamics\b2_world_callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\box2d-source\rope\b2_rope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Physics\Rigidbody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Math\Conversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Physics\PhysicsSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Physics\ContactListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Actors\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\LuaManager\LuaActorHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\LuaManager\LuaActorInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Events\EventBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Events\EventSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Particles\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Particles\ParticleSystemsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Progress\ProgressManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Progress\GlobalProgressManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="note.txt" />
+    <Text Include="resources\Credits.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,251 @@
+frame : 0 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 1 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 2 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 3 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 4 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 5 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 6 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 7 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 8 raycast result : nil
+frame : 9 raycast result : nil
+frame : 10 raycast result : nil
+frame : 11 raycast result : nil
+frame : 12 raycast result : nil
+frame : 13 raycast result : nil
+frame : 14 raycast result : nil
+frame : 15 raycast result : nil
+frame : 16 raycast result : nil
+frame : 17 raycast result : target_body_ne with normal (-1.0,0.0) and is_trigger = false
+frame : 18 raycast result : target_body_ne with normal (-1.0,0.0) and is_trigger = false
+frame : 19 raycast result : target_body_ne with normal (0.0,1.0) and is_trigger = false
+frame : 20 raycast result : nil
+frame : 21 raycast result : nil
+frame : 22 raycast result : nil
+frame : 23 raycast result : nil
+frame : 24 raycast result : nil
+frame : 25 raycast result : nil
+frame : 26 raycast result : nil
+frame : 27 raycast result : nil
+frame : 28 raycast result : nil
+frame : 29 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 30 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 31 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 32 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 33 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 34 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 35 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 36 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 37 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 38 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 39 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 40 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 41 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 42 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 43 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 44 raycast result : nil
+frame : 45 raycast result : nil
+frame : 46 raycast result : nil
+frame : 47 raycast result : nil
+frame : 48 raycast result : nil
+frame : 49 raycast result : nil
+frame : 50 raycast result : nil
+frame : 51 raycast result : nil
+frame : 52 raycast result : nil
+frame : 53 raycast result : target_body_se with normal (0.0,-1.0) and is_trigger = false
+frame : 54 raycast result : target_body_se with normal (0.0,-1.0) and is_trigger = false
+frame : 55 raycast result : target_body_se with normal (-1.0,0.0) and is_trigger = false
+frame : 56 raycast result : nil
+frame : 57 raycast result : nil
+frame : 58 raycast result : nil
+frame : 59 raycast result : nil
+frame : 60 raycast result : nil
+frame : 61 raycast result : nil
+frame : 62 raycast result : nil
+frame : 63 raycast result : nil
+frame : 64 raycast result : nil
+frame : 65 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 66 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 67 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 68 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 69 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 70 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 71 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 72 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 73 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 74 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 75 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 76 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 77 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 78 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 79 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 80 raycast result : nil
+frame : 81 raycast result : nil
+frame : 82 raycast result : nil
+frame : 83 raycast result : nil
+frame : 84 raycast result : nil
+frame : 85 raycast result : nil
+frame : 86 raycast result : nil
+frame : 87 raycast result : nil
+frame : 88 raycast result : nil
+frame : 89 raycast result : nil
+frame : 90 raycast result : target_body_sw with normal (1.0,0.0) and is_trigger = false
+frame : 91 raycast result : target_body_sw with normal (0.0,-1.0) and is_trigger = false
+frame : 92 raycast result : nil
+frame : 93 raycast result : nil
+frame : 94 raycast result : nil
+frame : 95 raycast result : nil
+frame : 96 raycast result : nil
+frame : 97 raycast result : nil
+frame : 98 raycast result : nil
+frame : 99 raycast result : nil
+frame : 100 raycast result : nil
+frame : 101 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 102 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 103 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 104 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 105 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 106 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 107 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 108 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 109 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 110 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 111 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 112 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 113 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 114 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 115 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 116 raycast result : target_body_w with normal (0.70710676908493,-0.70710676908493) and is_trigger = false
+frame : 117 raycast result : nil
+frame : 118 raycast result : nil
+frame : 119 raycast result : nil
+frame : 120 raycast result : nil
+frame : 121 raycast result : nil
+frame : 122 raycast result : nil
+frame : 123 raycast result : nil
+frame : 124 raycast result : nil
+frame : 125 raycast result : nil
+frame : 126 raycast result : target_body_nw with normal (0.0,1.0) and is_trigger = false
+frame : 127 raycast result : target_body_nw with normal (1.0,0.0) and is_trigger = false
+frame : 128 raycast result : nil
+frame : 129 raycast result : nil
+frame : 130 raycast result : nil
+frame : 131 raycast result : nil
+frame : 132 raycast result : nil
+frame : 133 raycast result : nil
+frame : 134 raycast result : nil
+frame : 135 raycast result : nil
+frame : 136 raycast result : nil
+frame : 137 raycast result : nil
+frame : 138 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 139 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 140 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 141 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 142 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 143 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 144 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 145 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 146 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 147 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 148 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 149 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 150 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 151 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 152 raycast result : target_body_n with normal (0.0,1.0) and is_trigger = false
+frame : 153 raycast result : nil
+frame : 154 raycast result : nil
+frame : 155 raycast result : nil
+frame : 156 raycast result : nil
+frame : 157 raycast result : nil
+frame : 158 raycast result : nil
+frame : 159 raycast result : nil
+frame : 160 raycast result : nil
+frame : 161 raycast result : nil
+frame : 162 raycast result : target_body_ne with normal (-1.0,0.0) and is_trigger = false
+frame : 163 raycast result : target_body_ne with normal (0.0,1.0) and is_trigger = false
+frame : 164 raycast result : target_body_ne with normal (0.0,1.0) and is_trigger = false
+frame : 165 raycast result : nil
+frame : 166 raycast result : nil
+frame : 167 raycast result : nil
+frame : 168 raycast result : nil
+frame : 169 raycast result : nil
+frame : 170 raycast result : nil
+frame : 171 raycast result : nil
+frame : 172 raycast result : nil
+frame : 173 raycast result : nil
+frame : 174 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 175 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 176 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 177 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 178 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 179 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 180 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 181 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 182 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 183 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 184 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 185 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 186 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 187 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 188 raycast result : target_body_e with normal (-1.0,0.0) and is_trigger = true
+frame : 189 raycast result : nil
+frame : 190 raycast result : nil
+frame : 191 raycast result : nil
+frame : 192 raycast result : nil
+frame : 193 raycast result : nil
+frame : 194 raycast result : nil
+frame : 195 raycast result : nil
+frame : 196 raycast result : nil
+frame : 197 raycast result : nil
+frame : 198 raycast result : target_body_se with normal (0.0,-1.0) and is_trigger = false
+frame : 199 raycast result : target_body_se with normal (-1.0,0.0) and is_trigger = false
+frame : 200 raycast result : target_body_se with normal (-1.0,0.0) and is_trigger = false
+frame : 201 raycast result : nil
+frame : 202 raycast result : nil
+frame : 203 raycast result : nil
+frame : 204 raycast result : nil
+frame : 205 raycast result : nil
+frame : 206 raycast result : nil
+frame : 207 raycast result : nil
+frame : 208 raycast result : nil
+frame : 209 raycast result : nil
+frame : 210 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 211 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 212 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 213 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 214 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 215 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 216 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 217 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 218 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 219 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 220 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 221 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 222 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 223 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 224 raycast result : target_body_s with normal (0.0,-1.0) and is_trigger = true
+frame : 225 raycast result : nil
+frame : 226 raycast result : nil
+frame : 227 raycast result : nil
+frame : 228 raycast result : nil
+frame : 229 raycast result : nil
+frame : 230 raycast result : nil
+frame : 231 raycast result : nil
+frame : 232 raycast result : nil
+frame : 233 raycast result : nil
+frame : 234 raycast result : target_body_sw with normal (1.0,0.0) and is_trigger = false
+frame : 235 raycast result : target_body_sw with normal (1.0,0.0) and is_trigger = false
+frame : 236 raycast result : target_body_sw with normal (0.0,-1.0) and is_trigger = false
+frame : 237 raycast result : nil
+frame : 238 raycast result : nil
+frame : 239 raycast result : nil
+frame : 240 raycast result : nil
+frame : 241 raycast result : nil
+frame : 242 raycast result : nil
+frame : 243 raycast result : nil
+frame : 244 raycast result : nil
+frame : 245 raycast result : nil
+frame : 246 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 247 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 248 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 249 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false
+frame : 250 raycast result : target_body_w with normal (0.70710676908493,0.70710676908493) and is_trigger = false

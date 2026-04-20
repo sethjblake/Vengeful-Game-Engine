@@ -1,0 +1,8 @@
+{
+	"name": "Level",
+	"components": {
+		"1": {
+			"type": "Level"
+		}
+	}
+}

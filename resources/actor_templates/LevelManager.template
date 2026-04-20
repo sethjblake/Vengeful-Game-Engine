@@ -1,0 +1,8 @@
+{
+	"name": "LevelManager",
+	"components": {
+		"1": {
+			"type": "LevelManager"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "TerrainManager",
+	"components": {
+		"1": {
+			"type": "TerrainManager"
+		}
+	}
+}
