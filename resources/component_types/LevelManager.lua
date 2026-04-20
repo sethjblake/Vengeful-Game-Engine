@@ -27,7 +27,6 @@ LevelManager = {
 		self:InitButton(3, -0.06, -0.25)
 		self:InitButton(4, 1, 0.16)
 
-
 		local savedMaxLevel = Progress.GetInt("max_unlocked_level")
 		if savedMaxLevel == nil then
 			Progress.SetInt("max_unlocked_level", 1)
